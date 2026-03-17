@@ -1,0 +1,85 @@
+1. User Information (What to collect)
+
+Full Name (First and Last)
+
+Email Address (for login and communication)
+
+Phone Number (optional, for SMS or calls)
+
+Username (unique ID for login, if needed)
+
+Password (with confirmation field)
+
+Date of Birth (optional, if needed for age verification)
+
+Address (optional, useful if delivery involved)
+
+2. Password Rules & Security
+
+Minimum 8 characters (or more)
+
+Include uppercase, lowercase, numbers, special characters
+
+Show password strength meter (visual feedback)
+
+Confirm password field to avoid typos
+
+Option to show/hide password
+
+3. User Experience (UX) Requirements
+
+Clear labels and placeholders for each field
+
+Real-time validation (e.g., check valid email format as user types)
+
+Friendly error messages (e.g., “Please enter a valid email”)
+
+Use required field indicators (*) on mandatory fields
+
+Clean, uncluttered design and mobile-friendly (responsive)
+
+Submit button disabled until required fields are valid
+
+Confirmation message or redirect after successful registration
+
+4. Additional Features
+
+Option to sign up with social media accounts (Google, Facebook, Apple)
+
+Checkbox to agree to Terms and Conditions and Privacy Policy (with links)
+
+CAPTCHA or bot protection (to avoid spam registrations)
+
+Email verification step (send confirmation link to email)
+
+Option to subscribe to newsletter or promotional offers (optional checkbox)
+
+5. Backend & Data Handling
+
+Securely store user passwords (hashed & salted, not plain text)
+
+Validate all inputs on the server side (security)
+
+Protect against SQL Injection, XSS attacks, and other vulnerabilities
+
+Store registration date/time
+
+Unique constraints on email/username to avoid duplicates
+
+Proper error handling for server failures
+
+6. Accessibility
+
+Make sure form is keyboard accessible
+
+Use screen reader friendly labels and ARIA attributes
+
+High contrast color options for visually impaired users
+
+7. Performance
+
+Fast loading of the registration page
+
+Minimal external scripts or large images slowing the form
+
+Responsive feedback (no long waiting times after submit)
